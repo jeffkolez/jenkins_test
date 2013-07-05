@@ -5,6 +5,7 @@ App::uses('View', 'View');
 App::uses('ProgressHelper', 'View/Helper');
 
 class ProgressHelperTest extends CakeTestCase {
+
     public function setUp() {
     	parent::setUp();
 	    $Controller = new Controller();
@@ -20,4 +21,5 @@ class ProgressHelperTest extends CakeTestCase {
 	    $result = $this->Progress->bar(33.3333333);
 	    $this->assertContains('width: 33%', $result);
     }
+
 }
