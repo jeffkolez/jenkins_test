@@ -13,10 +13,5 @@ class ControllerTest extends CakeTestCase {
     	$this->assertTrue($jeffIsAwesome);
     }
 
-    public function testCaseAlan() {
-		$alanIsAwesome = false;
-    	$this->assertTrue($jeffIsAwesome);
-    }
-
 
 }
