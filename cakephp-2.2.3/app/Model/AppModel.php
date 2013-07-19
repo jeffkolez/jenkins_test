@@ -31,4 +31,21 @@ App::uses('Model', 'Model');
  * @package       app.Model
  */
 class AppModel extends Model {
+
+	public function doSomething($things) {
+		$stuff = array();
+		foreach($things as $thing) {
+			$stuff[] = $thing;
+		}
+		return $stuff;
+	}
+
+	public function doSomethingElse($things) {
+		$stuff = array();
+		foreach($things as $thing) {
+			$stuff[] = $thing;
+		}
+		return $stuff;
+	}
+
 }
